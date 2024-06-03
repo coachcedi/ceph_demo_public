@@ -28,7 +28,7 @@ Interaction with Ceph Cluster using a Demo Application
 
 Resources: 
 
-https://github.com/danielunfolded/ceph_instance/tree/ceph_demo_public
+[https://github.com/danielunfolded/ceph_instance/tree/ceph_demo_public](https://github.com/coachcedi/ceph_demo_public)
 
 https://catalog.redhat.com/software/containers/rhceph/rhceph-4-rhel8/5e39df7cd70cc54b02baf33f?architecture=amd64&image=6323378880cc9b32913955e6&container-tabs=overview&gti-tabs=red-hat-login 
 
