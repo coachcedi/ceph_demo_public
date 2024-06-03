@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  ubuntu-ceph:
+    build: .
+    container_name: ubuntu-ceph
+    privileged: true
+    env_file:
+      - .env
+    ports:
+      - "6789:6789"
+      - "8989:8080"
+      - "5000:5000"
+    networks:
+      - ceph_network
+
+networks:
+  ceph_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: "192.168.0.0/24"
+
